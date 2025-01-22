@@ -20,7 +20,7 @@ Ideal para monitorar instantâneamente os eventos de segurança configurados no 
 # 1. Atualize seus pacotes para ter certeza de que você possui a versão mais recente:
 
 ```bash
-bashsudo apt-get update && sudo apt-get upgrade -y
+sudo apt-get update && sudo apt-get upgrade -y
 ```
 
 # 2. Instale o Python 3.9 e ferramentas relevantes para gerenciar pacotes:
@@ -45,13 +45,14 @@ pip install requests
 # 5. Configuração do Script.
 Edite o arquivo telegram_notifier.py e forneça suas credenciais nas seguintes variáveis:
 
-EMAIL: Use um e-mail específico dedicado a receber alertas do HikCentral, pois o script excluirá automaticamente as notificações processadas para manter a caixa de entrada limpa.
-PASSWORD: A senha associada a esse endereço de e-mail.
-IMAP_SERVER: O servidor IMAP do seu provedor de e-mail.
-TELEGRAM_TOKEN: O token do seu bot do Telegram.
-CHAT_ID: O ID do chat onde você deseja que os avisos sejam enviados.
-Execução do Script
-Para rodar o script, assegure-se que o diretório de execução esteja correto e execute:
+# Configurações do e-mail (insira seus dados)
+EMAIL = "seu_email@example.com"        # Substitua pelo seu e-mail
+PASSWORD = "sua_senha"                 # Substitua pela sua senha
+IMAP_SERVER = "imap.exemplo.com"       # Substitua pelo seu servidor IMAP
+
+# Configurações do Telegram (insira seus dados)
+TELEGRAM_TOKEN = "seu_token"           # Substitua pelo seu token Telegram
+CHAT_ID = "seu_chat_id"                # Substitua pelo seu Chat ID
 
 ```bash
 python3.9 telegram_notifier.py
