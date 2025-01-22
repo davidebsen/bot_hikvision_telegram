@@ -91,4 +91,4 @@ Este projeto é licenciado sob a licença MIT - veja o arquivo LICENSE para mais
 ## Autor
 Desenvolvido por [David Ebsen](https://www.linkedin.com/in/david-ebsen/)
 
-![Descrição da Imagem](images/logo.png)
+![Descrição da Imagem](modelo.png)
