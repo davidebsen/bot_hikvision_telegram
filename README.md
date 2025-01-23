@@ -1,4 +1,4 @@
-# Bot de Notificação de Eventos HIKVISION / TELEGRAM
+# Bot Notificação de Eventos HIKVISION / TELEGRAM
 
 Script Python desenvolvido para integrar os alertas de e-mail enviados pelo HikCentral e convertê-los em notificações para o Telegram. 
 Ideal para monitorar instantâneamente os eventos de segurança configurados no HikCentral.
