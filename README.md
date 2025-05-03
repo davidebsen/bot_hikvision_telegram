@@ -5,7 +5,7 @@ Ideal para monitorar instantâneamente os eventos de segurança configurados no 
 
 > ⚠️ **Importante:**  
 > O arquivo `telegram_notifier.py` **não é distribuído gratuitamente**.  
-> Para obter o script, entre em contato via e-mail disponível no [perfil do autor no GitHub](https://github.com/davidebsen).
+> Para obter o script, [entre em contato com o autor pelo GitHub](https://github.com/davidebsen).
 
 ## Funcionalidades
 
