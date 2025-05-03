@@ -3,9 +3,9 @@
 Script Python desenvolvido para integrar os alertas de e-mail enviados pelo HikCentral e convertê-los em notificações para o Telegram. 
 Ideal para monitorar instantâneamente os eventos de segurança configurados no HikCentral.
 
-> ⚠️ **Importante:**  
+> ⚠️ **Atenção:**  
 > O arquivo `telegram_notifier.py` **não é distribuído gratuitamente**.  
-> Para obter o script, entre em contato atravez dos [link no perfil] (https://github.com/davidebsen).
+> Para adquiri-lo, entre em contato diretamente através do [links no perfil](https://github.com/davidebsen).
 
 ## Funcionalidades
 
